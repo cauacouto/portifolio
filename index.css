@@ -1,0 +1,117 @@
+
+        *{
+            padding: 0%;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        p{
+            margin: 20px;
+            font-family: "Montserrat", sans-serif;
+            color: rgb(204, 201, 201);
+              }
+           
+                fieldset{
+                  background-image: linear-gradient(90deg, #000000 0%, #360536 100%);
+                  border: none;
+                   }
+
+              h1{
+                transition: 35s;
+                cursor: pointer;
+              }
+                  .container3:hover >:not(:hover){
+                    opacity: 4s;
+                    transform: scale(0.9);
+                  } 
+                
+                    img{
+                    width: 4rem;
+                    }
+
+                header, h1 ,legend{
+                  padding: 1rem;
+                  color:  #ffffff  ;
+                  background-image: linear-gradient(90deg, #000000 0%, #360536 100%);
+                }
+
+                h2{ 
+                color: rgb(204, 201, 201);          
+                font-family:Arial,  sans-serif ;
+                display: flex;
+                    justify-content: space-around;
+                    padding: 20px;
+                        }
+              h3{
+                color: rgb(204, 201, 201);  
+              }
+
+                /* Container para alinhar os cartões */
+                .container {
+                    display: flex;
+                    justify-content: space-around;
+                    padding: 20px;
+                  }
+                          
+                  /* Estilo dos cartões */
+                  .card {
+                    width: 200px;
+                    height: 150px;
+                    background-color: #000000;
+                    background-image: linear-gradient(90deg, #000000 0%, #360536 100%);
+                    /* Cor de fundo do cartão */
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 10px; /* Bordas arredondadas */
+                    text-align: center;
+              
+                    font-weight: bold;
+                    font-family: Arial, sans-serif;
+                          }
+                  
+                  /* Estilo para os ícones */
+                  .card img {
+                    width: 40px;
+                    height: auto;
+                    margin-bottom: 10px;
+                  }
+                  
+                  /* Estilo para o texto */
+                  .card p {
+                    margin: 0;
+                    font-size: 16px;
+                  }
+
+                /* Estilo para os ícones */
+                .card img {
+                  width: 40px;
+                  height: auto;
+                  margin-bottom: 10px;
+
+                }
+
+                /* Estilo para o texto */
+                .card p {
+                  margin: 0;
+                  font-size: 16px;
+                
+                }
+
+                main{
+                    background-color: #000000;
+                  
+                }
+
+                .container {
+                  transition: transform 0.3s;
+                }
+
+                .container:hover {
+                  transform: translateY(-20px); /* Move o elemento 20px para cima */
+                }
+
+                p2{
+                  color: rgb(152, 152, 152);
+                }
+
